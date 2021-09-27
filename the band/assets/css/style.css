@@ -116,6 +116,7 @@ html{
 }
 
 #nav .subnav{
+    z-index :99;
     min-width: 160px;
     top: 100%;
     left: 0;
@@ -161,7 +162,8 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/the band/assets/img/slider/slider1.jpg') top center/cover no-repeat ;
+    background: url('/the band/assets/img/slider/slider1.jpg') top center/cover no-repeat ; 
+    z-index :10;
 }
 #slider .text-content{
     position: absolute;
